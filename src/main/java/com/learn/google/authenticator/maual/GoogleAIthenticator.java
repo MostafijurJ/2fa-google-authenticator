@@ -1,11 +1,11 @@
-package com.learn.google.authenticator;
+package com.learn.google.authenticator.maual;
 
 import com.google.zxing.WriterException;
 
 import java.io.IOException;
 import java.util.Scanner;
 
-import static com.learn.google.authenticator.Utils.getTOTPCode;
+import static com.learn.google.authenticator.maual.Utils.getTOTPCode;
 
 public class GoogleAIthenticator {
     public static void main(String[] args) throws IOException, WriterException {

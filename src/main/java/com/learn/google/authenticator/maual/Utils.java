@@ -1,4 +1,4 @@
-package com.learn.google.authenticator;
+package com.learn.google.authenticator.maual;
 
 import com.google.zxing.BarcodeFormat;
 import com.google.zxing.MultiFormatWriter;
