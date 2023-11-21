@@ -17,7 +17,7 @@
                 data : JSON.stringify(userData),
                 contentType: 'application/json',
                 success : function(msg) {
-                    alert("success");
+                    alert("success user created");
                 },
                 error : function() {
                     alert("failure");
@@ -30,10 +30,11 @@
 </head>
 <body align="center">
 <div ng-controller="UserAdminController as userAdmin">
-    <h1>Create user - secret (semilla)</h1>
+    <h1> Login user - 2FA Authentication</h1>
 
     <form method="POST" action="/static">
         User ID :  <input type="text" name="Username" id="username"/><br />
+        <br />
         Password : <input type="password" name="Password" id="password"/><br />
         <br /> <input type="button" value="Submit" onClick="createUser();"/>
     </form>
