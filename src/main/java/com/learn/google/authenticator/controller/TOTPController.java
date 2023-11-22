@@ -22,11 +22,8 @@ public class TOTPController {
     private UserService userService;
 
     @PostMapping(value = "/users")
-    public @ResponseBody
     User createUser(@RequestBody User user) {
-        User savedUser = userService.createUser(user);
-        savedUser.setPassword("");
-        return savedUser;
+	    return userService.createUser(user);
     }
 
     @GetMapping(value = "/qrcode/get/{username}")
