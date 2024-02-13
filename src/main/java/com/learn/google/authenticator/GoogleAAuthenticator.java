@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 import static com.learn.google.authenticator.Utils.getTOTPCode;
 
-public class GoogleAIthenticator {
+public class GoogleAAuthenticator {
     public static void main(String[] args) throws IOException, WriterException {
         String secretKey = "QDWSM3OYBPGTEVSPB5FKVDM3CSNCWHVK";
         String email = "test-2fa@yopmail.com";
